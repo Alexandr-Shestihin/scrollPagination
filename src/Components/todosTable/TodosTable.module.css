@@ -14,6 +14,9 @@
    width: 60px;
    text-align: center;
 }
+.tableTodos div:nth-child(3){
+   width: 120px;
+}
 .tableTodos div:nth-child(2){
    width: 100%;
    padding-left: 20px;
@@ -22,7 +25,7 @@ select{
    -moz-appearance: none;
 	-webkit-appearance: none;
 	appearance: none;
-   width: calc(100% + 20px);
+   width: 100%;
    height: 100%;
    white-space: inherit;
    overflow: inherit;
@@ -30,10 +33,9 @@ select{
    background: transparent;
    color: white;
    border: none;
-   margin-left: -20px;
-   padding-left: 20px;
    text-transform: capitalize;
    cursor: pointer;
+   text-align: center;
 }
 option{
    background: #282c34;
